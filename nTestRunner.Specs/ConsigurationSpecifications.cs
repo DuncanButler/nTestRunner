@@ -30,7 +30,7 @@ namespace nTestRunner.Specs
         Establish context =
             () =>
                 {
-                    _args = new string[] {"-Path","\"C:\\TestFilePath\\testSolution.sln\"", "-Test", "MSpec"};
+                    _args = new string[] {"-Path","\"C:\\TestFilePath\\testSolution.sln\"", "-Test", "MSpec", "-Display", "Growl"};
                 };
 
         Because of =
@@ -44,6 +44,9 @@ namespace nTestRunner.Specs
 
         It sets_the_test_runner_to_the_users_test_runner =
             () => _configuration.TestRunner.ShouldEqual("MSpec");
+
+        It sets_the_display_to_the_users_selected_display =
+            () => _configuration.ResultDisplay.ShouldEqual("Growl");
 
         static Configuration _configuration;
         static string[] _args;

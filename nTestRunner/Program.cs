@@ -44,6 +44,9 @@ namespace nTestRunner
 
                 if (key.ToLower() == "-test")
                     TestRunner = value;
+
+                if (key.ToLower() == "-display")
+                    ResultDisplay = value;
             }
         }
 
