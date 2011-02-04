@@ -5,7 +5,6 @@ namespace nTestRunner.Specs
     [Subject("nTestRunner Configuration")]
     public class Creating_configuration_with_default_values
     {
-
         Because of =
             () =>
                 {
@@ -31,7 +30,7 @@ namespace nTestRunner.Specs
         Establish context =
             () =>
                 {
-                    _args = new string[] {"-Path","\"C:\\TestFilePath\\testSolution.sln\" "};
+                    _args = new string[] {"-Path","\"C:\\TestFilePath\\testSolution.sln\"", "-Test", "MSpec"};
                 };
 
         Because of =
@@ -43,6 +42,8 @@ namespace nTestRunner.Specs
         It sets_the_specification_path_to_the_users_entered_path =
             () => _configuration.SolutionPath.ShouldContain(@"C:\TestFilePath\testSolution.sln");
 
+        It sets_the_test_runner_to_the_users_test_runner =
+            () => _configuration.TestRunner.ShouldEqual("MSpec");
 
         static Configuration _configuration;
         static string[] _args;

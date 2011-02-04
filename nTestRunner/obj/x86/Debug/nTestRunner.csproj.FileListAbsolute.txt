@@ -8,3 +8,8 @@ J:\nTestRunner\nTestRunner\obj\x86\Debug\nTestRunner.pdb
 J:\nTestRunner\nTestRunner\bin\Debug\nTestRunner.exe
 J:\nTestRunner\nTestRunner\bin\Debug\nTestRunner.pdb
 J:\nTestRunner\nTestRunner\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Duncan\Documents\My Dropbox\Dropbox\nTestRunner\nTestRunner\obj\x86\Debug\nTestRunner.exe
+C:\Users\Duncan\Documents\My Dropbox\Dropbox\nTestRunner\nTestRunner\obj\x86\Debug\nTestRunner.pdb
+C:\Users\Duncan\Documents\My Dropbox\Dropbox\nTestRunner\nTestRunner\bin\Debug\nTestRunner.exe
+C:\Users\Duncan\Documents\My Dropbox\Dropbox\nTestRunner\nTestRunner\bin\Debug\nTestRunner.pdb
+C:\Users\Duncan\Documents\My Dropbox\Dropbox\nTestRunner\nTestRunner\obj\x86\Debug\ResolveAssemblyReference.cache

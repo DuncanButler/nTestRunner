@@ -41,6 +41,9 @@ namespace nTestRunner
 
                 if (key.ToLower() == "-path")
                     SolutionPath = value;
+
+                if (key.ToLower() == "-test")
+                    TestRunner = value;
             }
         }
 
