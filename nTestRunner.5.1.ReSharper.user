@@ -1,0 +1,155 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="F9FA36BF-D782-4298-80FA-2335067A023F/f:Program.cs" caret="1039" fromTop="29" />
+      <File id="C4E5A2D6-80EC-45FA-AADD-64E4FAD510B9/f:ConsigurationSpecifications.cs" caret="817" fromTop="10" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="F9FA36BF-D782-4298-80FA-2335067A023F/f:Program.cs" caret="151" fromTop="24" />
+      <File id="F9FA36BF-D782-4298-80FA-2335067A023F/f:Program.cs" caret="151" fromTop="12" />
+      <File id="F9FA36BF-D782-4298-80FA-2335067A023F/f:Program.cs" caret="151" fromTop="31" />
+      <File id="C4E5A2D6-80EC-45FA-AADD-64E4FAD510B9/f:ConsigurationSpecifications.cs" caret="751" fromTop="20" />
+      <File id="F9FA36BF-D782-4298-80FA-2335067A023F/f:Program.cs" caret="151" fromTop="21" />
+      <File id="F9FA36BF-D782-4298-80FA-2335067A023F/f:Program.cs" caret="151" fromTop="19" />
+      <File id="F9FA36BF-D782-4298-80FA-2335067A023F/f:Program.cs" caret="151" fromTop="9" />
+      <File id="F9FA36BF-D782-4298-80FA-2335067A023F/f:Program.cs" caret="151" fromTop="21" />
+      <File id="F9FA36BF-D782-4298-80FA-2335067A023F/f:Program.cs" caret="151" fromTop="26" />
+      <File id="F9FA36BF-D782-4298-80FA-2335067A023F/f:Program.cs" caret="151" fromTop="14" />
+      <File id="F9FA36BF-D782-4298-80FA-2335067A023F/f:Program.cs" caret="151" fromTop="24" />
+      <File id="F9FA36BF-D782-4298-80FA-2335067A023F/f:Program.cs" caret="151" fromTop="20" />
+      <File id="F9FA36BF-D782-4298-80FA-2335067A023F/f:Program.cs" caret="151" fromTop="13" />
+      <File id="F9FA36BF-D782-4298-80FA-2335067A023F/f:Program.cs" caret="151" fromTop="12" />
+      <File id="F9FA36BF-D782-4298-80FA-2335067A023F/f:Program.cs" caret="151" fromTop="20" />
+      <File id="F9FA36BF-D782-4298-80FA-2335067A023F/f:Program.cs" caret="151" fromTop="27" />
+      <File id="F9FA36BF-D782-4298-80FA-2335067A023F/f:Program.cs" caret="151" fromTop="24" />
+      <File id="F9FA36BF-D782-4298-80FA-2335067A023F/f:Program.cs" caret="151" fromTop="34" />
+      <File id="F9FA36BF-D782-4298-80FA-2335067A023F/f:Program.cs" caret="2437" fromTop="67" />
+      <File id="F9FA36BF-D782-4298-80FA-2335067A023F/f:Program.cs" caret="86" fromTop="3" />
+      <File id="F9FA36BF-D782-4298-80FA-2335067A023F/f:Program.cs" caret="151" fromTop="9" />
+      <File id="C4E5A2D6-80EC-45FA-AADD-64E4FAD510B9/f:ConsigurationSpecifications.cs" caret="932" fromTop="26" />
+      <File id="C4E5A2D6-80EC-45FA-AADD-64E4FAD510B9/f:ConsigurationSpecifications.cs" caret="177" fromTop="4" />
+      <File id="C4E5A2D6-80EC-45FA-AADD-64E4FAD510B9/f:ConsigurationSpecifications.cs" caret="468" fromTop="12" />
+      <File id="C4E5A2D6-80EC-45FA-AADD-64E4FAD510B9/f:ConsigurationSpecifications.cs" caret="1101" fromTop="21" />
+      <File id="C4E5A2D6-80EC-45FA-AADD-64E4FAD510B9/f:ConsigurationSpecifications.cs" caret="1222" fromTop="27" />
+      <File id="F9FA36BF-D782-4298-80FA-2335067A023F/f:Program.cs" caret="458" fromTop="21" />
+      <File id="F9FA36BF-D782-4298-80FA-2335067A023F/f:Program.cs" caret="1031" fromTop="32" />
+      <File id="F9FA36BF-D782-4298-80FA-2335067A023F/f:Program.cs" caret="768" fromTop="20" />
+      <File id="C4E5A2D6-80EC-45FA-AADD-64E4FAD510B9/f:ConsigurationSpecifications.cs" caret="1059" fromTop="17" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files (x86)\NUnit 2.5.3\bin\net-2.0\</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="foreach" priority="0" />
+      <Item value="Console`0" priority="1" />
+      <Item value="SetDefaultConfiguration`0" priority="0" />
+      <Item value="var" priority="1" />
+      <Item value="new" priority="5" />
+      <Item value="Configuration`0" priority="3" />
+      <Item value="public" priority="0" />
+      <Item value="string" priority="8" />
+      <Item value="it" priority="3" />
+      <Item value="because of" priority="2" />
+      <Item value="_configuration" priority="2" />
+      <Item value="Configuration" priority="0" />
+      <Item value="this" priority="0" />
+      <Item value="AppDomain`0" priority="1" />
+      <Item value="System" priority="3" />
+      <Item value="IO" priority="3" />
+      <Item value="Path`0" priority="1" />
+      <Item value="path" priority="3" />
+      <Item value="Directory`0" priority="1" />
+      <Item value="firstParent" priority="0" />
+      <Item value="secondParent" priority="1" />
+      <Item value="SolutionPath" priority="3" />
+      <Item value="files" priority="2" />
+      <Item value="FirstOrDefault`1" priority="1" />
+      <Item value="TopDirectoryOnly" priority="1" />
+      <Item value="if" priority="5" />
+      <Item value="solutionFiles" priority="0" />
+      <Item value="Length" priority="5" />
+      <Item value="ear" priority="0" />
+      <Item value="projectFiles" priority="3" />
+      <Item value="else" priority="0" />
+      <Item value="TestRunner" priority="0" />
+      <Item value="ResultDisplay" priority="0" />
+      <Item value="return" priority="4" />
+      <Item value="GetWatchFilePath`0" priority="1" />
+      <Item value="searchPattern" priority="0" />
+      <Item value="searchDirectory" priority="2" />
+      <Item value="SearchOption`0" priority="0" />
+      <Item value="FoundFiles`0" priority="0" />
+      <Item value="subject" priority="0" />
+      <Item value="nTestRunner" priority="0" />
+      <Item value="establishcontext" priority="1" />
+      <Item value="args" priority="4" />
+      <Item value="Contains`1" priority="0" />
+      <Item value="forr" priority="0" />
+      <Item value="for" priority="0" />
+      <Item value="i" priority="0" />
+      <Item value="key" priority="0" />
+      <Item value="value" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Console">
+      <Item value="WriteLine`0" priority="0" />
+      <Item value="ReadLine`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:nTestRunner.Configuration">
+      <Item value="SolutionPath" priority="1" />
+      <Item value="TestRunner" priority="0" />
+      <Item value="ResultDisplay" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="ShouldEqual`1" priority="1" />
+      <Item value="LastIndexOf`0" priority="0" />
+      <Item value="Substring`0" priority="0" />
+      <Item value="Length" priority="0" />
+      <Item value="ShouldBeEmpty`0" priority="1" />
+      <Item value="ShouldContain`1" priority="1" />
+      <Item value="ToLower`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.AppDomain">
+      <Item value="CurrentDomain" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.AppDomain">
+      <Item value="BaseDirectory" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.Path">
+      <Item value="PathSeparator" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.Directory">
+      <Item value="GetParent`0" priority="0" />
+      <Item value="GetFiles`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.DirectoryInfo">
+      <Item value="Parent" priority="2" />
+      <Item value="GetFiles`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.FileInfo">
+      <Item value="FullName" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Empty" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.SearchOption">
+      <Item value="TopDirectoryOnly" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

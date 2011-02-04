@@ -1,0 +1,1 @@
+"C:\Program Files\Duncan\AutoSpec\AutoSpecRunner" "D:\My Source Files\Visual Stuido 2010\nTestRunner\nTestRunner.sln" MSBuild4 MSpec PopUpForm

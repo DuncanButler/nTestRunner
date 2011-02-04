@@ -1,0 +1,4 @@
+<Modules>
+  <Module PersistentId="F9FA36BF-D782-4298-80FA-2335067A023F" ModuleId="nTestRunner" />
+  <Module PersistentId="C4E5A2D6-80EC-45FA-AADD-64E4FAD510B9" ModuleId="nTestRunner.Specs" />
+</Modules>

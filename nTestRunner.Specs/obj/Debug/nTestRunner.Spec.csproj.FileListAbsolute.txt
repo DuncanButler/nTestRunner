@@ -1,0 +1,16 @@
+D:\My Source Files\Visual Stuido 2010\nTestRunner\nTestRunner.Specs\bin\Debug\nTestRunner.Spec.dll
+D:\My Source Files\Visual Stuido 2010\nTestRunner\nTestRunner.Specs\bin\Debug\nTestRunner.Spec.pdb
+D:\My Source Files\Visual Stuido 2010\nTestRunner\nTestRunner.Specs\obj\Debug\ResolveAssemblyReference.cache
+D:\My Source Files\Visual Stuido 2010\nTestRunner\nTestRunner.Specs\obj\Debug\nTestRunner.Spec.dll
+D:\My Source Files\Visual Stuido 2010\nTestRunner\nTestRunner.Specs\obj\Debug\nTestRunner.Spec.pdb
+D:\My Source Files\Visual Stuido 2010\nTestRunner\nTestRunner.Specs\bin\Debug\Machine.Specifications.dll
+D:\My Source Files\Visual Stuido 2010\nTestRunner\nTestRunner.Specs\bin\Debug\nTestRunner.exe
+D:\My Source Files\Visual Stuido 2010\nTestRunner\nTestRunner.Specs\bin\Debug\nTestRunner.pdb
+J:\nTestRunner\nTestRunner.Specs\bin\Debug\nTestRunner.Spec.dll
+J:\nTestRunner\nTestRunner.Specs\bin\Debug\nTestRunner.Spec.pdb
+J:\nTestRunner\nTestRunner.Specs\bin\Debug\Machine.Specifications.dll
+J:\nTestRunner\nTestRunner.Specs\bin\Debug\nTestRunner.exe
+J:\nTestRunner\nTestRunner.Specs\bin\Debug\nTestRunner.pdb
+J:\nTestRunner\nTestRunner.Specs\obj\Debug\ResolveAssemblyReference.cache
+J:\nTestRunner\nTestRunner.Specs\obj\Debug\nTestRunner.Spec.dll
+J:\nTestRunner\nTestRunner.Specs\obj\Debug\nTestRunner.Spec.pdb

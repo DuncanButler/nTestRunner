@@ -1,0 +1,10 @@
+D:\My Source Files\Visual Stuido 2010\nTestRunner\nTestRunner\bin\Debug\nTestRunner.exe
+D:\My Source Files\Visual Stuido 2010\nTestRunner\nTestRunner\bin\Debug\nTestRunner.pdb
+D:\My Source Files\Visual Stuido 2010\nTestRunner\nTestRunner\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\My Source Files\Visual Stuido 2010\nTestRunner\nTestRunner\obj\x86\Debug\nTestRunner.exe
+D:\My Source Files\Visual Stuido 2010\nTestRunner\nTestRunner\obj\x86\Debug\nTestRunner.pdb
+J:\nTestRunner\nTestRunner\obj\x86\Debug\nTestRunner.exe
+J:\nTestRunner\nTestRunner\obj\x86\Debug\nTestRunner.pdb
+J:\nTestRunner\nTestRunner\bin\Debug\nTestRunner.exe
+J:\nTestRunner\nTestRunner\bin\Debug\nTestRunner.pdb
+J:\nTestRunner\nTestRunner\obj\x86\Debug\ResolveAssemblyReference.cache
