@@ -42,7 +42,7 @@ namespace nTestRunner
                 if (key.ToLower() == "-path" || key.ToLower() == "-p")
                     SolutionPath = value;
 
-                if (key.ToLower() == "-test")
+                if (key.ToLower() == "-test" || key.ToLower() == "-t")
                     TestRunner = value;
 
                 if (key.ToLower() == "-display")
