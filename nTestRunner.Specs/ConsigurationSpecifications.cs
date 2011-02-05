@@ -58,7 +58,7 @@ namespace nTestRunner.Specs
         Establish context =
             () =>
                 {
-                    _args = new string[] { "-P", "\"C:\\TestFilePath\\testSolution.sln\"", "-T", "MSpec" };
+                    _args = new string[] { "-P", "\"C:\\TestFilePath\\testSolution.sln\"", "-T", "MSpec", "-D", "Growl" };
                 };
 
         Because of =
@@ -66,12 +66,15 @@ namespace nTestRunner.Specs
                 {
                     _configuration = new Configuration(_args);
                 };
-
+        
         It sets_the_specification_path_to_the_users_entered_path =
             () => _configuration.SolutionPath.ShouldContain(@"C:\TestFilePath\testSolution.sln");
 
         It sets_the_test_runner_to_the_users_entered_test_runner =
             () => _configuration.TestRunner.ShouldEqual("MSpec");
+
+        It sets_the_display_to_the_users_entered_runner_display =
+            () => _configuration.ResultDisplay.ShouldEqual("Growl");
 
         static string[] _args;
         static Configuration _configuration;
