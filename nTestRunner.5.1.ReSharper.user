@@ -9,40 +9,45 @@
   </SettingsComponent>
   <RecentFiles>
     <RecentFiles>
-      <File id="C4E5A2D6-80EC-45FA-AADD-64E4FAD510B9/f:ConsigurationSpecifications.cs" caret="1993" fromTop="16" />
-      <File id="F9FA36BF-D782-4298-80FA-2335067A023F/f:Program.cs" caret="1240" fromTop="18" />
+      <File id="C4E5A2D6-80EC-45FA-AADD-64E4FAD510B9/f:packages.config" caret="2" fromTop="0" />
+      <File id="C4E5A2D6-80EC-45FA-AADD-64E4FAD510B9/f:ConsigurationSpecifications.cs" caret="2685" fromTop="75" />
+      <File id="F9FA36BF-D782-4298-80FA-2335067A023F/f:Program.cs" caret="198" fromTop="11" />
+      <File id="F9FA36BF-D782-4298-80FA-2335067A023F/f:Configuration.cs" caret="293" fromTop="14" />
+      <File id="C4E5A2D6-80EC-45FA-AADD-64E4FAD510B9/f:SolutionFileSpecifications.cs" caret="564" fromTop="16" />
+      <File id="C4E5A2D6-80EC-45FA-AADD-64E4FAD510B9/f:nTestRunner.sln" caret="0" fromTop="0" />
+      <File id="F9FA36BF-D782-4298-80FA-2335067A023F/f:SolutionFile.cs" caret="538" fromTop="22" />
     </RecentFiles>
     <RecentEdits>
-      <File id="F9FA36BF-D782-4298-80FA-2335067A023F/f:Program.cs" caret="151" fromTop="21" />
-      <File id="F9FA36BF-D782-4298-80FA-2335067A023F/f:Program.cs" caret="151" fromTop="19" />
-      <File id="F9FA36BF-D782-4298-80FA-2335067A023F/f:Program.cs" caret="151" fromTop="9" />
-      <File id="F9FA36BF-D782-4298-80FA-2335067A023F/f:Program.cs" caret="151" fromTop="21" />
-      <File id="F9FA36BF-D782-4298-80FA-2335067A023F/f:Program.cs" caret="151" fromTop="26" />
-      <File id="F9FA36BF-D782-4298-80FA-2335067A023F/f:Program.cs" caret="151" fromTop="14" />
-      <File id="F9FA36BF-D782-4298-80FA-2335067A023F/f:Program.cs" caret="151" fromTop="24" />
-      <File id="F9FA36BF-D782-4298-80FA-2335067A023F/f:Program.cs" caret="151" fromTop="20" />
-      <File id="F9FA36BF-D782-4298-80FA-2335067A023F/f:Program.cs" caret="151" fromTop="13" />
-      <File id="F9FA36BF-D782-4298-80FA-2335067A023F/f:Program.cs" caret="151" fromTop="12" />
-      <File id="F9FA36BF-D782-4298-80FA-2335067A023F/f:Program.cs" caret="151" fromTop="20" />
-      <File id="F9FA36BF-D782-4298-80FA-2335067A023F/f:Program.cs" caret="151" fromTop="27" />
-      <File id="F9FA36BF-D782-4298-80FA-2335067A023F/f:Program.cs" caret="151" fromTop="24" />
-      <File id="F9FA36BF-D782-4298-80FA-2335067A023F/f:Program.cs" caret="151" fromTop="34" />
-      <File id="F9FA36BF-D782-4298-80FA-2335067A023F/f:Program.cs" caret="2648" fromTop="67" />
-      <File id="F9FA36BF-D782-4298-80FA-2335067A023F/f:Program.cs" caret="86" fromTop="3" />
-      <File id="F9FA36BF-D782-4298-80FA-2335067A023F/f:Program.cs" caret="151" fromTop="9" />
+      <File id="F9FA36BF-D782-4298-80FA-2335067A023F/f:Program.cs" caret="78" fromTop="12" />
+      <File id="F9FA36BF-D782-4298-80FA-2335067A023F/f:Program.cs" caret="78" fromTop="20" />
+      <File id="F9FA36BF-D782-4298-80FA-2335067A023F/f:Program.cs" caret="78" fromTop="27" />
+      <File id="F9FA36BF-D782-4298-80FA-2335067A023F/f:Program.cs" caret="78" fromTop="24" />
+      <File id="F9FA36BF-D782-4298-80FA-2335067A023F/f:Program.cs" caret="78" fromTop="34" />
+      <File id="F9FA36BF-D782-4298-80FA-2335067A023F/f:Program.cs" caret="199" fromTop="67" />
+      <File id="F9FA36BF-D782-4298-80FA-2335067A023F/f:Program.cs" caret="13" fromTop="3" />
       <File id="C4E5A2D6-80EC-45FA-AADD-64E4FAD510B9/f:ConsigurationSpecifications.cs" caret="930" fromTop="26" />
       <File id="C4E5A2D6-80EC-45FA-AADD-64E4FAD510B9/f:ConsigurationSpecifications.cs" caret="466" fromTop="12" />
       <File id="C4E5A2D6-80EC-45FA-AADD-64E4FAD510B9/f:ConsigurationSpecifications.cs" caret="1137" fromTop="21" />
       <File id="C4E5A2D6-80EC-45FA-AADD-64E4FAD510B9/f:ConsigurationSpecifications.cs" caret="1258" fromTop="27" />
-      <File id="F9FA36BF-D782-4298-80FA-2335067A023F/f:Program.cs" caret="458" fromTop="21" />
-      <File id="F9FA36BF-D782-4298-80FA-2335067A023F/f:Program.cs" caret="768" fromTop="20" />
+      <File id="F9FA36BF-D782-4298-80FA-2335067A023F/f:Program.cs" caret="198" fromTop="21" />
+      <File id="F9FA36BF-D782-4298-80FA-2335067A023F/f:Program.cs" caret="198" fromTop="20" />
       <File id="C4E5A2D6-80EC-45FA-AADD-64E4FAD510B9/f:ConsigurationSpecifications.cs" caret="175" fromTop="6" />
       <File id="C4E5A2D6-80EC-45FA-AADD-64E4FAD510B9/f:ConsigurationSpecifications.cs" caret="1134" fromTop="5" />
-      <File id="F9FA36BF-D782-4298-80FA-2335067A023F/f:Program.cs" caret="1199" fromTop="22" />
+      <File id="F9FA36BF-D782-4298-80FA-2335067A023F/f:Program.cs" caret="198" fromTop="22" />
       <File id="C4E5A2D6-80EC-45FA-AADD-64E4FAD510B9/f:ConsigurationSpecifications.cs" caret="1945" fromTop="16" />
-      <File id="F9FA36BF-D782-4298-80FA-2335067A023F/f:Program.cs" caret="994" fromTop="10" />
-      <File id="C4E5A2D6-80EC-45FA-AADD-64E4FAD510B9/f:ConsigurationSpecifications.cs" caret="2103" fromTop="31" />
-      <File id="C4E5A2D6-80EC-45FA-AADD-64E4FAD510B9/f:ConsigurationSpecifications.cs" caret="2404" fromTop="28" />
+      <File id="C4E5A2D6-80EC-45FA-AADD-64E4FAD510B9/f:ConsigurationSpecifications.cs" caret="2312" fromTop="14" />
+      <File id="C4E5A2D6-80EC-45FA-AADD-64E4FAD510B9/f:ConsigurationSpecifications.cs" caret="2753" fromTop="20" />
+      <File id="C4E5A2D6-80EC-45FA-AADD-64E4FAD510B9/f:ConsigurationSpecifications.cs" caret="2132" fromTop="4" />
+      <File id="F9FA36BF-D782-4298-80FA-2335067A023F/f:Program.cs" caret="198" fromTop="21" />
+      <File id="F9FA36BF-D782-4298-80FA-2335067A023F/f:Program.cs" caret="198" fromTop="11" />
+      <File id="F9FA36BF-D782-4298-80FA-2335067A023F/f:Configuration.cs" caret="336" fromTop="14" />
+      <File id="C4E5A2D6-80EC-45FA-AADD-64E4FAD510B9/f:SolutionFileSpecifications.cs" caret="296" fromTop="10" />
+      <File id="F9FA36BF-D782-4298-80FA-2335067A023F/f:SolutionFile.cs" caret="165" fromTop="7" />
+      <File id="C4E5A2D6-80EC-45FA-AADD-64E4FAD510B9/f:SolutionFileSpecifications.cs" caret="677" fromTop="22" />
+      <File id="C4E5A2D6-80EC-45FA-AADD-64E4FAD510B9/f:SolutionFileSpecifications.cs" caret="414" fromTop="11" />
+      <File id="C4E5A2D6-80EC-45FA-AADD-64E4FAD510B9/f:SolutionFileSpecifications.cs" caret="533" fromTop="15" />
+      <File id="F9FA36BF-D782-4298-80FA-2335067A023F/f:SolutionFile.cs" caret="540" fromTop="20" />
+      <File id="F9FA36BF-D782-4298-80FA-2335067A023F/f:SolutionFile.cs" caret="477" fromTop="19" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
@@ -60,14 +65,14 @@
       <Item value="foreach" priority="0" />
       <Item value="Console`0" priority="1" />
       <Item value="SetDefaultConfiguration`0" priority="0" />
-      <Item value="var" priority="2" />
-      <Item value="new" priority="7" />
-      <Item value="Configuration`0" priority="4" />
+      <Item value="var" priority="4" />
+      <Item value="new" priority="9" />
+      <Item value="Configuration`0" priority="5" />
       <Item value="public" priority="1" />
-      <Item value="string" priority="9" />
+      <Item value="string" priority="10" />
       <Item value="it" priority="3" />
       <Item value="because of" priority="2" />
-      <Item value="_configuration" priority="5" />
+      <Item value="_configuration" priority="7" />
       <Item value="Configuration" priority="0" />
       <Item value="this" priority="0" />
       <Item value="AppDomain`0" priority="1" />
@@ -87,7 +92,7 @@
       <Item value="Length" priority="5" />
       <Item value="ear" priority="0" />
       <Item value="projectFiles" priority="3" />
-      <Item value="else" priority="0" />
+      <Item value="else" priority="1" />
       <Item value="TestRunner" priority="1" />
       <Item value="ResultDisplay" priority="1" />
       <Item value="return" priority="4" />
@@ -104,15 +109,24 @@
       <Item value="forr" priority="0" />
       <Item value="for" priority="0" />
       <Item value="i" priority="0" />
-      <Item value="key" priority="3" />
+      <Item value="key" priority="5" />
       <Item value="value" priority="2" />
-      <Item value="It`0" priority="1" />
+      <Item value="It`0" priority="4" />
       <Item value="Behaves_like" priority="0" />
       <Item value="SubjectAttribute`0" priority="0" />
       <Item value="class" priority="0" />
-      <Item value="Establish`0" priority="0" />
+      <Item value="Establish`0" priority="1" />
       <Item value="Because`0" priority="0" />
-      <Item value="It Assertion" priority="1" />
+      <Item value="It Assertion" priority="4" />
+      <Item value="configuration" priority="0" />
+      <Item value="thr" priority="0" />
+      <Item value="NotImplementedException`0" priority="0" />
+      <Item value="Subject" priority="0" />
+      <Item value="Because of" priority="0" />
+      <Item value="_solutionFile" priority="1" />
+      <Item value="SolutionFile" priority="0" />
+      <Item value="Establish Context" priority="0" />
+      <Item value="SolutionFile`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.Console">
       <Item value="WriteLine`0" priority="0" />
@@ -120,17 +134,17 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:nTestRunner.Configuration">
       <Item value="SolutionPath" priority="2" />
-      <Item value="TestRunner" priority="1" />
-      <Item value="ResultDisplay" priority="1" />
+      <Item value="TestRunner" priority="2" />
+      <Item value="ResultDisplay" priority="2" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.String">
-      <Item value="ShouldEqual`1" priority="4" />
+      <Item value="ShouldEqual`1" priority="6" />
       <Item value="LastIndexOf`0" priority="0" />
       <Item value="Substring`0" priority="0" />
       <Item value="Length" priority="0" />
       <Item value="ShouldBeEmpty`0" priority="1" />
       <Item value="ShouldContain`1" priority="2" />
-      <Item value="ToLower`0" priority="3" />
+      <Item value="ToLower`0" priority="5" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.AppDomain">
       <Item value="CurrentDomain" priority="1" />
