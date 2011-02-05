@@ -39,7 +39,7 @@ namespace nTestRunner
                 string key = args[i];
                 string value = args[i + 1];
 
-                if (key.ToLower() == "-path")
+                if (key.ToLower() == "-path" || key.ToLower() == "-p")
                     SolutionPath = value;
 
                 if (key.ToLower() == "-test")

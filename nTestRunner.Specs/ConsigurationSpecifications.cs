@@ -51,4 +51,28 @@ namespace nTestRunner.Specs
         static Configuration _configuration;
         static string[] _args;
     }
+
+    [Subject("nTestRunner Configuration")]
+    public class Creating_configuration_with_user_values_short_values
+    {
+        Establish context =
+            () =>
+                {
+                    _args = new string[] { "-P", "\"C:\\TestFilePath\\testSolution.sln\"" };
+                };
+
+        Because of =
+            () =>
+                {
+                    _configuration = new Configuration(_args);
+                };
+
+        It sets_the_specification_path_to_the_users_entered_path =
+            () => _configuration.SolutionPath.ShouldContain(@"C:\TestFilePath\testSolution.sln");
+
+
+
+        static string[] _args;
+        static Configuration _configuration;
+    }
 }
