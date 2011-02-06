@@ -1,4 +1,4 @@
-﻿Feature: nTestRunner Program Startup
+﻿Feature: nTestRunner solution change
 	As a developer
 	In order to get rapid feedback
 	When I save a file, the program should be compiled and all tests run and the results

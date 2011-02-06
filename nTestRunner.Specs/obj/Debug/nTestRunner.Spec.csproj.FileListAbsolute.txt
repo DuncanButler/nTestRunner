@@ -22,3 +22,4 @@ C:\Users\Duncan\Documents\My Dropbox\Dropbox\nTestRunner\nTestRunner.Specs\bin\D
 C:\Users\Duncan\Documents\My Dropbox\Dropbox\nTestRunner\nTestRunner.Specs\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Duncan\Documents\My Dropbox\Dropbox\nTestRunner\nTestRunner.Specs\obj\Debug\nTestRunner.Spec.dll
 C:\Users\Duncan\Documents\My Dropbox\Dropbox\nTestRunner\nTestRunner.Specs\obj\Debug\nTestRunner.Spec.pdb
+C:\Users\Duncan\Documents\My Dropbox\Dropbox\nTestRunner\nTestRunner.Specs\bin\Debug\TestSolution.sln

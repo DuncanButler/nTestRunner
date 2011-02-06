@@ -82,17 +82,17 @@ this.ScenarioSetup(scenarioInfo);
 #line 25
  testRunner.Given("that the program is not running");
 #line 26
- testRunner.When("the program is run with no arguments");
+ testRunner.When("the program is run with arguments \'\'");
 #line 27
- testRunner.Then("the user sees text containing \'nTestrunner version 1.0\'");
+ testRunner.Then("the user sees text containing \'nTestRunner version 1.0\'");
 #line 28
- testRunner.And("the user sees text containing \'watching files\'");
+ testRunner.And("the user sees text containing \'Watching Files\'");
 #line 29
- testRunner.And("the user sees text containing \'TestSolution.sln\'");
+ testRunner.And("the user sees text containing \'nTestRunner.sln\'");
 #line 30
- testRunner.And("the user sees text containing \'TestProject1.csproj\'");
+ testRunner.And("the user sees text containing \'nTestRunner.features.csproj\'");
 #line 31
- testRunner.And("the user sees text containing \'TestProject2.csproj\'");
+ testRunner.And("the user sees text containing \'nTestRunner.Spec.csproj\'");
 #line hidden
             testRunner.CollectScenarioErrors();
         }
@@ -108,13 +108,13 @@ this.ScenarioSetup(scenarioInfo);
  testRunner.Given("that the program is not running");
 #line 35
  testRunner.When("the program is run with arguments \'-Path C:\\Users\\Duncan\\Documents\\My Dropbox\\Dro" +
-                    "pbox\\nTestRunner\\nTestRunner.sln\'");
+                    "pbox\\nTestRunner\\nTestRunner.features\\TestData\\TestSolution.sln\'");
 #line 36
- testRunner.Then("the user sees text containing \'TestSolution1.sln\'");
+ testRunner.Then("the user sees text containing \'TestSolution.sln\'");
 #line 37
- testRunner.And("the user sees text containing \'TestProject3.csproj\'");
+ testRunner.And("the user sees text containing \'TestProject1.csproj\'");
 #line 38
- testRunner.And("the user sees text containing \'TestProject4.csproj\'");
+ testRunner.And("the user sees text containing \'TestProject2.csproj\'");
 #line hidden
             testRunner.CollectScenarioErrors();
         }

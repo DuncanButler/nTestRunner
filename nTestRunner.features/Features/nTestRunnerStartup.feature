@@ -23,19 +23,19 @@
 
 Scenario: Startup without arguments
 	Given that the program is not running
-	When the program is run with no arguments 
-	Then the user sees text containing 'nTestrunner version 1.0'
-	And the user sees text containing 'watching files' 
-	And the user sees text containing 'TestSolution.sln'
-	And the user sees text containing 'TestProject1.csproj'
-	And the user sees text containing 'TestProject2.csproj'
+	When the program is run with arguments ''
+	Then the user sees text containing 'nTestRunner version 1.0'
+	And the user sees text containing 'Watching Files' 
+	And the user sees text containing 'nTestRunner.sln'
+	And the user sees text containing 'nTestRunner.features.csproj'
+	And the user sees text containing 'nTestRunner.Spec.csproj'
 
 Scenario: Startup with path arguments
 	Given that the program is not running
-	When the program is run with arguments '-Path C:\Users\Duncan\Documents\My Dropbox\Dropbox\nTestRunner\nTestRunner.sln'
-	Then the user sees text containing 'TestSolution1.sln'
-	And the user sees text containing 'TestProject3.csproj'
-	And the user sees text containing 'TestProject4.csproj'
+	When the program is run with arguments '-Path C:\Users\Duncan\Documents\My Dropbox\Dropbox\nTestRunner\nTestRunner.features\TestData\TestSolution.sln'
+	Then the user sees text containing 'TestSolution.sln'
+	And the user sees text containing 'TestProject1.csproj'
+	And the user sees text containing 'TestProject2.csproj'
 
 Scenario: Startup with test runner arguments
 	Given that the program is not running

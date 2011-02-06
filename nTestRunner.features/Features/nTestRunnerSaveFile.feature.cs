@@ -17,8 +17,8 @@ namespace nTestRunner.features.Features
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "1.5.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [NUnit.Framework.TestFixtureAttribute()]
-    [NUnit.Framework.DescriptionAttribute("nTestRunner Program Startup")]
-    public partial class NTestRunnerProgramStartupFeature
+    [NUnit.Framework.DescriptionAttribute("nTestRunner solution change")]
+    public partial class NTestRunnerSolutionChangeFeature
     {
         
         private static TechTalk.SpecFlow.ITestRunner testRunner;
@@ -30,7 +30,7 @@ namespace nTestRunner.features.Features
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "nTestRunner Program Startup", @"As a developer
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "nTestRunner solution change", @"As a developer
 In order to get rapid feedback
 When I save a file, the program should be compiled and all tests run and the results
 stored in a file in the same format as nunit, so I can use beacons to view the results of the
