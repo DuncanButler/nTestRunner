@@ -10,7 +10,7 @@
 	runner display is set then it is activated with the results from the build test cycle.
 	
 Scenario: with default configuration
-	Given the program is running
+	Given the program is running with no argument
 	When a change event is received from the watcher
 	Then the watcher is switched off
 	And the build is triggered
@@ -19,12 +19,12 @@ Scenario: with default configuration
 	And the watcher is restarted
 
 Scenario: with test runner configuration set
-	Given the program is running
+	Given the program is running with MSpec argument
 	When a change event is received from the watcher
 	Then only projects with the specified runner are tested
 
 Scenario: with the display runner configuration set
-	Given the program is running
+	Given the program is running with Growl argument
 	When a change event is received from the watcher
 	Then the runner display is called
 	And the runner display is given the test results

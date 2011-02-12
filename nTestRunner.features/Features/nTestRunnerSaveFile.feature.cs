@@ -68,7 +68,7 @@ runner display is set then it is activated with the results from the build test 
 #line 12
 this.ScenarioSetup(scenarioInfo);
 #line 13
- testRunner.Given("the program is running");
+ testRunner.Given("the program is running with no argument");
 #line 14
  testRunner.When("a change event is received from the watcher");
 #line 15
@@ -93,7 +93,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 21
 this.ScenarioSetup(scenarioInfo);
 #line 22
- testRunner.Given("the program is running");
+ testRunner.Given("the program is running with MSpec argument");
 #line 23
  testRunner.When("a change event is received from the watcher");
 #line 24
@@ -110,7 +110,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 26
 this.ScenarioSetup(scenarioInfo);
 #line 27
- testRunner.Given("the program is running");
+ testRunner.Given("the program is running with Growl argument");
 #line 28
  testRunner.When("a change event is received from the watcher");
 #line 29
