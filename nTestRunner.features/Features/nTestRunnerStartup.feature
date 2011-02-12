@@ -32,14 +32,14 @@ Scenario: Startup without arguments
 
 Scenario: Startup with path arguments
 	Given that the program is not running
-	When the program is run with arguments '-Path C:\Users\Duncan\Documents\My Dropbox\Dropbox\nTestRunner\nTestRunner.features\TestData\TestSolution.sln'
+	When the program is run with arguments '-Path,C:\Users\Duncan\Documents\My Dropbox\Dropbox\nTestRunner\nTestRunner.features\TestData\TestSolution.sln'
 	Then the user sees text containing 'TestSolution.sln'
 	And the user sees text containing 'TestProject1.csproj'
 	And the user sees text containing 'TestProject2.csproj'
 
 Scenario: Startup with test runner arguments
 	Given that the program is not running
-	When the program is run with arguments '-Test MSpec'
+	When the program is run with arguments '-Test,MSpec'
 	Then the user sees text containing 'Running tests with MSpec'
 	
 Scenario: Startup with display arguments

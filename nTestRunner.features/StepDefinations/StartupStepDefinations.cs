@@ -21,7 +21,7 @@ namespace nTestRunner.features.StepDefinations
         [When(@"the program is run with arguments '(.*)'")]
         public void WhenTheProgramIsRunWith(string arguments)
         {
-            var args = arguments.Split(' ');
+            var args = arguments.Split(',');
 
             _console = new TestConsole();
 

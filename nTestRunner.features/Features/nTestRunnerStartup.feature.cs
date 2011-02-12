@@ -107,7 +107,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 34
  testRunner.Given("that the program is not running");
 #line 35
- testRunner.When("the program is run with arguments \'-Path C:\\Users\\Duncan\\Documents\\My Dropbox\\Dro" +
+ testRunner.When("the program is run with arguments \'-Path,C:\\Users\\Duncan\\Documents\\My Dropbox\\Dro" +
                     "pbox\\nTestRunner\\nTestRunner.features\\TestData\\TestSolution.sln\'");
 #line 36
  testRunner.Then("the user sees text containing \'TestSolution.sln\'");
@@ -129,7 +129,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 41
  testRunner.Given("that the program is not running");
 #line 42
- testRunner.When("the program is run with arguments \'-Test MSpec\'");
+ testRunner.When("the program is run with arguments \'-Test,MSpec\'");
 #line 43
  testRunner.Then("the user sees text containing \'Running tests with MSpec\'");
 #line hidden

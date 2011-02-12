@@ -3,25 +3,25 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Reflection;
+using System.Text;
 
 namespace nTestRunner
 {
     public class Runner
     {
         public Runner(string[] args, IConsole console)
-        {   
-            if(args.Length > 0)
-            {
-                foreach (var arg in args)
-                {
-                    
-                }
-            }
-            string solutionFilePath = GetSolutionFilePath();
+        {
+            var configuration = new Configuration(args);
+
+            string solutionFilePath = configuration.SolutionPath;
 
             Solution solution = BuildSolution(solutionFilePath);
 
             WriteTitle(solution, console);
+
+            WriteSolutionDetails(solution, console);
+
+            WriteTestRunnerDetails(configuration, console);
         }
 
         Solution BuildSolution(string solutionFilePath)
@@ -31,17 +31,14 @@ namespace nTestRunner
             return solution;
         }
 
-        string GetSolutionFilePath()
-        {
-            string currentPath = Directory.GetCurrentDirectory();
-
-            return FindSolutionFile(currentPath);
-        }
-
         void WriteTitle(Solution solution, IConsole console)
         {
             var version = Assembly.GetExecutingAssembly().GetName().Version;
             console.Write(string.Format(TitleVersion, version.Major, version.Minor));
+        }
+
+        void WriteSolutionDetails(Solution solution, IConsole console)
+        {
             console.Write(WatchingFiles);
             console.Write(solution.Name);
 
@@ -49,18 +46,25 @@ namespace nTestRunner
                 console.Write(project.ProjectName);
         }
 
-        string FindSolutionFile(string currentPath)
+        void WriteTestRunnerDetails(Configuration configuration, IConsole console)
         {
-            string[] files = Directory.GetFiles(currentPath);
+            if (configuration.TestRunner.Count == 0)
+                return;
 
-            IEnumerable<string> found = from file in files where file.Contains(".sln") select file;
+            var builder = new StringBuilder();
+            builder.Append("Running tests with ");
+            bool moreThanOneRunner = false;
+            foreach (var runners in configuration.TestRunner)
+            {
+                if(moreThanOneRunner)
+                    builder.Append(", ");
 
-            if (found.Count() > 0)
-                return found.First();
+                builder.Append(runners);
 
-            DirectoryInfo parent = Directory.GetParent(currentPath);
+                moreThanOneRunner = true;
+            }
 
-            return FindSolutionFile(parent.FullName);
+            console.Write(builder.ToString());
         }
 
         string WatchingFiles { get { return Resource.ResourceManager.GetString("WatchingFiles"); } }
