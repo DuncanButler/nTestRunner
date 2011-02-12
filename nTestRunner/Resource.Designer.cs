@@ -61,11 +61,29 @@ namespace nTestRunner {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Displaying results in .
+        /// </summary>
+        internal static string DisplayRunner {
+            get {
+                return ResourceManager.GetString("DisplayRunner", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to (?&lt;=\&quot;)[^\&quot;]+\.[0-9a-z]+proj(?=\&quot;,\s*\&quot;{[0-9a-z]{8}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{4}-[0-9a-z]{12}}\&quot;\s*EndProject).
         /// </summary>
         internal static string ExtractProjectRegEx {
             get {
                 return ResourceManager.GetString("ExtractProjectRegEx", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Running tests with .
+        /// </summary>
+        internal static string TestRunner {
+            get {
+                return ResourceManager.GetString("TestRunner", resourceCulture);
             }
         }
         

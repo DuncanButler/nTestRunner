@@ -44,5 +44,5 @@ Scenario: Startup with test runner arguments
 	
 Scenario: Startup with display arguments
 	Given that the program is not running
-	When the program is run with arguments '-Display Growl'
+	When the program is run with arguments '-Display,Growl'
 	Then the user sees text containing 'Displaying results in Growl'  

@@ -146,7 +146,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 46
  testRunner.Given("that the program is not running");
 #line 47
- testRunner.When("the program is run with arguments \'-Display Growl\'");
+ testRunner.When("the program is run with arguments \'-Display,Growl\'");
 #line 48
  testRunner.Then("the user sees text containing \'Displaying results in Growl\'");
 #line hidden

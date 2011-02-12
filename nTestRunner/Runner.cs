@@ -22,6 +22,9 @@ namespace nTestRunner
             WriteSolutionDetails(solution, console);
 
             WriteTestRunnerDetails(configuration, console);
+
+            WriteDisplayDetails(configuration, console);
+
         }
 
         Solution BuildSolution(string solutionFilePath)
@@ -52,8 +55,9 @@ namespace nTestRunner
                 return;
 
             var builder = new StringBuilder();
-            builder.Append("Running tests with ");
-            bool moreThanOneRunner = false;
+            builder.Append(TestRunner);
+            var moreThanOneRunner = false;
+
             foreach (var runners in configuration.TestRunner)
             {
                 if(moreThanOneRunner)
@@ -67,7 +71,30 @@ namespace nTestRunner
             console.Write(builder.ToString());
         }
 
-        string WatchingFiles { get { return Resource.ResourceManager.GetString("WatchingFiles"); } }
-        string TitleVersion { get { return Resource.ResourceManager.GetString("TitleVersion"); } }
+        void WriteDisplayDetails(Configuration configuration, IConsole console)
+        {
+            if (configuration.RunnerDisplay.Count == 0)
+                return;
+
+            var builder = new StringBuilder();
+            builder.Append(DisplayRunner);
+            var moreThanOneRunner = false;
+
+            foreach (var display in configuration.RunnerDisplay)
+            {
+                if (moreThanOneRunner)
+                    builder.Append(", ");
+
+                builder.Append(display);
+                moreThanOneRunner = true;
+            }
+
+            console.Write(builder.ToString());
+        }
+
+        static string WatchingFiles { get { return Resource.ResourceManager.GetString("WatchingFiles"); } }
+        static string TitleVersion { get { return Resource.ResourceManager.GetString("TitleVersion"); } }
+        static string TestRunner {get { return Resource.ResourceManager.GetString("TestRunner");}}
+        static string DisplayRunner {get { return Resource.ResourceManager.GetString("DisplayRunner");}}
     }
 }
