@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Configuration.cs" />
+    <Compile Include="Enviroument.cs" />
     <Compile Include="IConsole.cs" />
     <Compile Include="IProject.cs" />
     <Compile Include="Program.cs" />
@@ -56,6 +57,8 @@
     </Compile>
     <Compile Include="Runner.cs" />
     <Compile Include="Solution.cs" />
+    <Compile Include="TestResults.cs" />
+    <Compile Include="TestSerializer.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resource.resx">

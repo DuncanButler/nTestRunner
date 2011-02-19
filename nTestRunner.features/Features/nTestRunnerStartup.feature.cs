@@ -152,6 +152,23 @@ this.ScenarioSetup(scenarioInfo);
 #line hidden
             testRunner.CollectScenarioErrors();
         }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("when starting creates a blank test results file")]
+        public virtual void WhenStartingCreatesABlankTestResultsFile()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("when starting creates a blank test results file", ((string[])(null)));
+#line 51
+this.ScenarioSetup(scenarioInfo);
+#line 52
+ testRunner.Given("that the program is not running");
+#line 53
+ testRunner.When("the program is run with arguments \'\'");
+#line 54
+ testRunner.Then("a file with the name \'TestResults.xml\' is created in the solution file directory");
+#line hidden
+            testRunner.CollectScenarioErrors();
+        }
     }
 }
 #endregion

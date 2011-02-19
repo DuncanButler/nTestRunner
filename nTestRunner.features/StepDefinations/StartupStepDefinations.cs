@@ -33,6 +33,20 @@ namespace nTestRunner.features.StepDefinations
         {
             Assert.Contains(expectedText, _console.Output);
         }
+
+        [Then(@"a file with the name '(.*)' is created in the solution file directory")]
+        public void ThenAFileWithTheNameIsCreatedInTheSolutionFileDirectory(string fileName)
+        {
+            var files = System.IO.Directory.GetFiles(@"C:\Users\Duncan\Documents\My Dropbox\Dropbox\nTestRunner");
+
+            Assert.Contains(fileName, files);            
+        }
+
+        [AfterScenario]
+        public void Cleanup()
+        {
+            System.IO.File.Delete(@"C:\Users\Duncan\Documents\My Dropbox\Dropbox\nTestRunner\TestResults.xml");
+        }
     }
 
     public class TestConsole : IConsole
