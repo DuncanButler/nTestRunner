@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F9FA36BF-D782-4298-80FA-2335067A023F}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>nTestRunner</RootNamespace>
+    <AssemblyName>nTestRunner</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Configuration.cs" />
+    <Compile Include="TestRunners\BaseTestCaller.cs" />
+    <Compile Include="TestRunners\MsTestCaller.cs" />
+    <Compile Include="TestRunners\NUnitTestCaller.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Project.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Runner.cs" />
+    <Compile Include="Solution.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BuildEngines\BuildEngine2\BuildEngine2.csproj">
+      <Project>{C03224CF-0974-4D18-9C74-93F2A9836512}</Project>
+      <Name>BuildEngine2</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BuildEngines\BuildEngine35\BuildEngine35.csproj">
+      <Project>{9FB7ECAA-22E3-48F0-BF44-E6AE93C8EF12}</Project>
+      <Name>BuildEngine35</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BuildEngines\BuildEngine4\BuildEngine4.csproj">
+      <Project>{C82BC057-272D-4591-9D0E-AD445A812F60}</Project>
+      <Name>BuildEngine4</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DisplayRunners\GrowlDisplay\GrowlDisplay.csproj">
+      <Project>{DEDD04B3-508D-4418-97BA-E63786C81C34}</Project>
+      <Name>GrowlDisplay</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\nTestRunner.Interfaces\nTestRunner.Interfaces.csproj">
+      <Project>{1363B94E-51A0-4DA3-A396-C6C7A9F42999}</Project>
+      <Name>nTestRunner.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SerializationHelpers\SerializationHelpers.csproj">
+      <Project>{468F72B7-52ED-4955-B499-6C4F72C6D14F}</Project>
+      <Name>SerializationHelpers</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TestRunners\MSpec\MSpecCaller\MSpecCaller.csproj">
+      <Project>{097A7B76-5110-4655-8445-ADA8FBFFD6E3}</Project>
+      <Name>MSpecCaller</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

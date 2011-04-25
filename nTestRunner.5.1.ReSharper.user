@@ -23,10 +23,10 @@
       <File id="C4E5A2D6-80EC-45FA-AADD-64E4FAD510B9/f:SolutionFileSpecifications.cs" caret="4" fromTop="0" />
       <File id="C4E5A2D6-80EC-45FA-AADD-64E4FAD510B9/f:TestSolution.sln" caret="2774" fromTop="35" />
       <File id="F9FA36BF-D782-4298-80FA-2335067A023F/f:Runner.cs" caret="2012" fromTop="5" />
-      <File id="9584BFE4-9E09-4BB7-B53D-2286F670EFA6/d:Features/f:nTestRunnerSaveFile.feature" caret="911" fromTop="19" />
-      <File id="9584BFE4-9E09-4BB7-B53D-2286F670EFA6/d:Features/f:nTestRunnerStartup.feature" caret="1464" fromTop="8" />
-      <File id="9584BFE4-9E09-4BB7-B53D-2286F670EFA6/d:StepDefinations/f:StartupStepDefinations.cs" caret="1731" fromTop="31" />
       <File id="C4E5A2D6-80EC-45FA-AADD-64E4FAD510B9/f:SerialiseTestResultFile.cs" caret="529" fromTop="11" />
+      <File id="9584BFE4-9E09-4BB7-B53D-2286F670EFA6/d:Features/f:nTestRunnerSaveFile.feature" caret="0" fromTop="0" />
+      <File id="9584BFE4-9E09-4BB7-B53D-2286F670EFA6/d:Features/f:nTestRunnerStartup.feature" caret="2628" fromTop="30" />
+      <File id="9584BFE4-9E09-4BB7-B53D-2286F670EFA6/d:Roles/f:Developer.cs" caret="252" fromTop="11" />
     </RecentFiles>
     <RecentEdits>
       <File id="F9FA36BF-D782-4298-80FA-2335067A023F/f:Runner.cs" caret="2530" fromTop="26" />
@@ -37,11 +37,7 @@
       <File id="9584BFE4-9E09-4BB7-B53D-2286F670EFA6/d:Features/f:nTestRunnerSaveFile.feature" caret="1006" fromTop="21" />
       <File id="9584BFE4-9E09-4BB7-B53D-2286F670EFA6/d:Features/f:nTestRunnerSaveFile.feature" caret="1216" fromTop="26" />
       <File id="9584BFE4-9E09-4BB7-B53D-2286F670EFA6/d:Features/f:nTestRunnerSaveFile.feature" caret="717" fromTop="12" />
-      <File id="9584BFE4-9E09-4BB7-B53D-2286F670EFA6/d:Features/f:nTestRunnerStartup.feature" caret="2681" fromTop="35" />
-      <File id="9584BFE4-9E09-4BB7-B53D-2286F670EFA6/d:StepDefinations/f:StartupStepDefinations.cs" caret="1418" fromTop="19" />
-      <File id="9584BFE4-9E09-4BB7-B53D-2286F670EFA6/d:StepDefinations/f:StartupStepDefinations.cs" caret="1149" fromTop="10" />
-      <File id="9584BFE4-9E09-4BB7-B53D-2286F670EFA6/d:StepDefinations/f:StartupStepDefinations.cs" caret="1317" fromTop="14" />
-      <File id="9584BFE4-9E09-4BB7-B53D-2286F670EFA6/d:StepDefinations/f:StartupStepDefinations.cs" caret="1770" fromTop="31" />
+      <File id="9584BFE4-9E09-4BB7-B53D-2286F670EFA6/d:Features/f:nTestRunnerStartup.feature" caret="2684" fromTop="35" />
       <File id="C4E5A2D6-80EC-45FA-AADD-64E4FAD510B9/f:SerialiseTestResultFile.cs" caret="683" fromTop="14" />
       <File id="C4E5A2D6-80EC-45FA-AADD-64E4FAD510B9/f:SerialiseTestResultFile.cs" caret="683" fromTop="21" />
       <File id="C4E5A2D6-80EC-45FA-AADD-64E4FAD510B9/f:SerialiseTestResultFile.cs" caret="2538" fromTop="30" />
@@ -59,6 +55,8 @@
       <File id="C4E5A2D6-80EC-45FA-AADD-64E4FAD510B9/f:SerialiseTestResultFile.cs" caret="2305" fromTop="12" />
       <File id="C4E5A2D6-80EC-45FA-AADD-64E4FAD510B9/f:SerialiseTestResultFile.cs" caret="1482" fromTop="15" />
       <File id="C4E5A2D6-80EC-45FA-AADD-64E4FAD510B9/f:SerialiseTestResultFile.cs" caret="526" fromTop="11" />
+      <File id="9584BFE4-9E09-4BB7-B53D-2286F670EFA6/d:Roles/f:Developer.cs" caret="216" fromTop="9" />
+      <File id="9584BFE4-9E09-4BB7-B53D-2286F670EFA6/d:Features/f:nTestRunnerStartup.feature" caret="1818" fromTop="15" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>

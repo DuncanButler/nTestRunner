@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C4E5A2D6-80EC-45FA-AADD-64E4FAD510B9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>nTestRunner.Spec</RootNamespace>
+    <AssemblyName>nTestRunner.Spec</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Growl.Connector">
+      <HintPath>D:\My Downloads\Growl\Growl_NET_Connector_SDK\libraries\Growl.Connector.dll</HintPath>
+    </Reference>
+    <Reference Include="Machine.Specifications, Version=0.4.10.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\packages\Machine.Specifications.0.4.10.0\lib\Machine.Specifications.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ConfigurationSpecifications.cs" />
+    <Compile Include="GrowlDisplaySpecification.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SerialiseTestResultFile.cs" />
+    <Compile Include="SerializeMSpecResultsFile.cs" />
+    <Compile Include="SolutionFileSpecifications.cs" />
+    <Compile Include="TimespanSpecifications.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Production\DisplayRunners\GrowlDisplay\GrowlDisplay.csproj">
+      <Project>{DEDD04B3-508D-4418-97BA-E63786C81C34}</Project>
+      <Name>GrowlDisplay</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Production\nTestRunner.Interfaces\nTestRunner.Interfaces.csproj">
+      <Project>{1363B94E-51A0-4DA3-A396-C6C7A9F42999}</Project>
+      <Name>nTestRunner.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Production\nTestRunner\nTestRunner.csproj">
+      <Project>{F9FA36BF-D782-4298-80FA-2335067A023F}</Project>
+      <Name>nTestRunner</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Production\SerializationHelpers\SerializationHelpers.csproj">
+      <Project>{468F72B7-52ED-4955-B499-6C4F72C6D14F}</Project>
+      <Name>SerializationHelpers</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Production\TestRunners\MSpec\MSpecCaller\MSpecCaller.csproj">
+      <Project>{097A7B76-5110-4655-8445-ADA8FBFFD6E3}</Project>
+      <Name>MSpecCaller</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="TestSolutions\TestSolution_MSTestProj.sln">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TestSolutions\TestProjects\MSTestProj.csproj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TestSolutions\TestProjects\NunitProj.csproj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TestSolutions\TestSolution_NUnitProj.sln">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TestSolutions\TestProjects\TestProject2.csproj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TestSolutions\TestProjects\MSpecProj.csproj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TestSolutions\TestProjects\TestProject1.csproj">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TestSolutions\TestSolution_MSpecProj.sln">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TestSolutions\TestSolution.sln">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
