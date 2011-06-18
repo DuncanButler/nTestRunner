@@ -1,5 +1,0 @@
-D:\My Source Files\Visual Stuido 2010\nTestRunner\nTestRunner.Specs\bin\Debug\nTestRunner.Specs.dll
-D:\My Source Files\Visual Stuido 2010\nTestRunner\nTestRunner.Specs\bin\Debug\nTestRunner.Specs.pdb
-D:\My Source Files\Visual Stuido 2010\nTestRunner\nTestRunner.Specs\obj\Debug\ResolveAssemblyReference.cache
-D:\My Source Files\Visual Stuido 2010\nTestRunner\nTestRunner.Specs\obj\Debug\nTestRunner.Specs.dll
-D:\My Source Files\Visual Stuido 2010\nTestRunner\nTestRunner.Specs\obj\Debug\nTestRunner.Specs.pdb

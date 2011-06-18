@@ -53,11 +53,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Features\nTestRunnerRunning.feature.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>nTestRunnerRunning.feature</DependentUpon>
-    </Compile>
     <Compile Include="Features\nTestRunnerStartup.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -92,10 +87,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
-    <None Include="Features\nTestRunnerRunning.feature">
-      <Generator>SpecFlowSingleFileGenerator</Generator>
-      <LastGenOutput>nTestRunnerRunning.feature.cs</LastGenOutput>
-    </None>
     <None Include="Features\nTestRunnerStartup.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>nTestRunnerStartup.feature.cs</LastGenOutput>
